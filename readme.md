@@ -1,1 +1,1 @@
-Carte du tuto : [[carte du tuto.canvas]]
+Carte du tuto : ![[carte du tuto.canvas]]
