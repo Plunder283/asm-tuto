@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"81e38865ef49a871","type":"group","x":-1900,"y":-300,"width":1940,"height":1660,"color":"4","label":"Documentation"},
+		{"id":"e408c32914cd0caa","x":-2960,"y":-300,"width":880,"height":460,"color":"6","type":"group","label":"Logiciels"},
+		{"id":"b1d4fac7d053a67a","type":"link","url":"https://www.cs.uaf.edu/2017/fall/cs301/reference/x86_64.html","x":-1860,"y":-240,"width":1060,"height":740},
+		{"id":"42f2afa59a2481a0","type":"link","url":"https://asmtutor.com/","x":-740,"y":-240,"width":400,"height":400},
+		{"id":"e51086fc898b27d6","x":-1860,"y":560,"width":1780,"height":720,"type":"link","url":"https://x64.syscall.sh/"},
+		{"id":"039a6c74788a12e3","type":"link","url":"https://github.com/NationalSecurityAgency/ghidra","x":-2940,"y":-260,"width":400,"height":400},
+		{"id":"db79344f0fd8234d","x":-2500,"y":-260,"width":400,"height":400,"type":"link","url":"https://github.com/hugsy/gef"},
+		{"id":"a96ca28f8d036b0c","x":275,"y":-160,"width":250,"height":60,"type":"text","text":"Vidéo d'installation\n"},
+		{"id":"59dac83cb0fdeedb","x":275,"y":-40,"width":250,"height":60,"type":"text","text":"Premier programme"},
+		{"id":"4ba0ffb5af385806","x":280,"y":-265,"width":240,"height":50,"type":"text","text":"Vidéo d'intro"},
+		{"id":"14957e0fec3b30c9","x":275,"y":93,"width":250,"height":60,"type":"text","text":"Fermer correctement un programme"}
+	],
+	"edges":[
+		{"id":"7e7049b75f17688e","fromNode":"4ba0ffb5af385806","fromSide":"bottom","toNode":"a96ca28f8d036b0c","toSide":"top"},
+		{"id":"64c78430734b41b5","fromNode":"a96ca28f8d036b0c","fromSide":"bottom","toNode":"59dac83cb0fdeedb","toSide":"top"},
+		{"id":"b4363168494cd5f5","fromNode":"59dac83cb0fdeedb","fromSide":"bottom","toNode":"14957e0fec3b30c9","toSide":"top"}
+	]
+}
