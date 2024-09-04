@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"e408c32914cd0caa","type":"group","x":-4200,"y":-300,"width":2180,"height":1740,"color":"6","label":"Logiciels"},
+		{"id":"81e38865ef49a871","type":"group","x":-1900,"y":-300,"width":1940,"height":1660,"color":"4","label":"Documentation"},
+		{"id":"f8cb70df2f0da181","type":"group","x":-2960,"y":-245,"width":880,"height":465,"color":"1","label":"Reverse Engineering"},
+		{"id":"b1d4fac7d053a67a","type":"link","url":"https://www.cs.uaf.edu/2017/fall/cs301/reference/x86_64.html","x":-1860,"y":-240,"width":1060,"height":740},
+		{"id":"db79344f0fd8234d","type":"link","url":"https://github.com/hugsy/gef","x":-2500,"y":-200,"width":400,"height":390},
+		{"id":"e51086fc898b27d6","type":"link","url":"https://x64.syscall.sh/","x":-1860,"y":560,"width":1780,"height":720},
+		{"id":"42f2afa59a2481a0","type":"link","url":"https://asmtutor.com/","x":-740,"y":-240,"width":400,"height":400},
+		{"id":"a96ca28f8d036b0c","type":"text","text":"Vidéo d'installation\n","x":275,"y":-160,"width":250,"height":60},
+		{"id":"59dac83cb0fdeedb","type":"text","text":"Comment un ordinateur exécute un programme","x":275,"y":-40,"width":250,"height":60},
+		{"id":"4ba0ffb5af385806","type":"text","text":"Vidéo d'intro","x":280,"y":-265,"width":240,"height":50},
+		{"id":"14957e0fec3b30c9","type":"text","text":"Fermer correctement un programme","x":275,"y":93,"width":250,"height":60},
+		{"id":"1931e5c8e59a3b04","type":"link","url":"https://www.mingw-w64.org/","x":-2500,"y":280,"width":400,"height":400},
+		{"id":"039a6c74788a12e3","type":"link","url":"https://github.com/NationalSecurityAgency/ghidra","x":-2940,"y":-200,"width":400,"height":400},
+		{"id":"0c2a70e7b1d69f04","type":"link","url":"http://www.godevtool.com/","x":-2940,"y":280,"width":400,"height":400},
+		{"id":"ed30417f8b1e23a1","type":"link","url":"https://code.visualstudio.com/","x":-4160,"y":-245,"width":1140,"height":945},
+		{"id":"7e6a6143b4dfc23d","type":"link","url":"https://learn.microsoft.com/fr-fr/windows/wsl/install-manual","x":-4160,"y":780,"width":1120,"height":620}
+	],
+	"edges":[
+		{"id":"7e7049b75f17688e","fromNode":"4ba0ffb5af385806","fromSide":"bottom","toNode":"a96ca28f8d036b0c","toSide":"top"},
+		{"id":"64c78430734b41b5","fromNode":"a96ca28f8d036b0c","fromSide":"bottom","toNode":"59dac83cb0fdeedb","toSide":"top"},
+		{"id":"b4363168494cd5f5","fromNode":"59dac83cb0fdeedb","fromSide":"bottom","toNode":"14957e0fec3b30c9","toSide":"top"}
+	]
+}
